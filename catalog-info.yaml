@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  description: dzemanov-org
+  annotations:
+    github.com/project-slug: 'dzemanov-org/test'
+    backstage.io/managed-by-location: url:https://github.com/dzemanov-org/test
+    backstage.io/managed-by-origin-location: url:https://github.com/dzemanov-org/test
+spec:
+  type: website
+  lifecycle: production
+  owner: guests
+  system: examples
