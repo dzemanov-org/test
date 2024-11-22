@@ -8,5 +8,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: user:dzemanov
+  owner: user:default/Dzemanov
   system: examples
